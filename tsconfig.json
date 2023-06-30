@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+        "types": ["vite/client"],
+        "outDir": "./dist/",
+        "module": "ES2022",
+        "target": "es6",
+        "jsx": "react",
+        "allowJs": true,
+        "strict": true,
+        "moduleResolution": "node",
+        "allowSyntheticDefaultImports": true,
+        "esModuleInterop": true,
+        "isolatedModules": true,
+        "noImplicitAny": true,
+        "noImplicitReturns": true,
+        "noFallthroughCasesInSwitch": true,
+        "resolveJsonModule": true,
+        "sourceMap": true
+    },
+    "include": ["src", ".eslintrc.cjs"],
+    "ts-node": { "esm": true }
+}

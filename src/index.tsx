@@ -52,7 +52,6 @@ async function addRecord(recordToAdd: Person) {
   try {
     const createdRecord = await prisma.highscores.create({
       data: {
-        userid: 1,
         name: recordToAdd.name,
         score: 69420,
       },

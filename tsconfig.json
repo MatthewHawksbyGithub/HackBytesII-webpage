@@ -17,6 +17,12 @@
         "resolveJsonModule": true,
         "sourceMap": true
     },
-    "include": ["src", ".eslintrc.cjs"],
+    "include": [
+        "src",
+        ".eslintrc.cjs",
+        "vite.config.ts",
+        "prettier.config.cjs",
+        "commitlint.config.cjs"
+    ],
     "ts-node": { "esm": true }
 }

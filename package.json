@@ -40,6 +40,8 @@
   "dependencies": {
     "@prisma/client": "^4.16.2",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "vite-plugin-ssr": "^0.4.132",
+    "vite-plugin-vercel": "^0.2.1"
   }
 }
